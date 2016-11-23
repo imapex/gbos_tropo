@@ -1,0 +1,25 @@
+{
+    "container": {
+        "type": "DOCKER",
+        "docker": {
+            "image": "imapex/gbos_tropo:latest",
+            "forcePullImage": true,
+            "network": "BRIDGE",
+            "portMappings": [{
+                "containerPort": 5000,
+                "hostPort": 0
+            }]
+        },
+        "forcePullImage": true
+    },
+    "healthChecks": [{
+        "protocol": "TCP",
+        "portIndex": 0
+    }],
+    "id": "APP_NAME",
+    "instances": 1,
+    "cpus": 0.1,
+    "mem": 16,
+    "env": {
+    }
+}
