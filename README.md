@@ -7,7 +7,7 @@ messages to visitors of the giant ball of string, as well as respond to requests
 
 Sessions are generally initiated via the Tropo REST API as such
 
-https://api.tropo.com/1.0/sessions?action=create&<token>={}&numberToDial=<phone>"
+https://api.tropo.com/1.0/sessions?action=create&token={{TOKEN}}&numberToDial={{PHONE}}"
 
 This will send a welcome message to the phone number provided. The user can respond back via SMS to get additional information
 
