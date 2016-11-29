@@ -13,7 +13,7 @@ echo
 echo "What is the password for your Mantl account?  "
 read -s mantl_password
 echo
-echo "Please provide the Marathon app name you would like to use: e.g app/prod/web"
+echo "Please provide the Marathon app name you would like to use: e.g app/prod/tropo"
 read app_name
 echo
 echo "What is the Lab Application Domain?  "
