@@ -1,0 +1,4 @@
+venv
+.drone-secrets.yml
+.idea
+app.json
