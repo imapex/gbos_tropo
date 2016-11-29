@@ -11,6 +11,14 @@ https://api.tropo.com/1.0/sessions?action=create&token={{TOKEN}}&numberToDial={{
 
 This will send a welcome message to the phone number provided. The user can respond back via SMS to get additional information
 
+
+# Prerequisites
+
+To use this application effectively, you will need the following
+
+* A tropo account with outbound SMS enabled
+* A Mantl or marathon stack
+
 ## Installation
 
 
