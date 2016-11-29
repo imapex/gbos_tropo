@@ -13,4 +13,12 @@ This will send a welcome message to the phone number provided. The user can resp
 
 ## Installation
 
-TODO
+The easiest way to use this application is via a Mantl stack, a `marathon_install.sh` script is provided for your convenience
+
+```
+bash marathon_install.sh
+```
+
+This script will gather all of the required information, install the application into your Mantl instance, as well
+as create the application using Tropo's REST API service.
+
